@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@ex/day1/*": ["./days/day1/exercises/*"],
+      "@ex/day2/*": ["./days/day2/exercises/*"],
+      "@ex/day3/*": ["./days/day3/exercises/*"],
+      "@ex/day4/*": ["./days/day4/exercises/*"],
+      "@ex/day5/*": ["./days/day5/exercises/*"],
+      "@ex/day6/*": ["./days/day6/exercises/*"],
+      "@ex/day7/*": ["./days/day7/exercises/*"],
+      "@app/*": ["./project/*"]
+    }
+  },
+  "include": ["days/**/*", "project/**/*", "*.ts"]
+}

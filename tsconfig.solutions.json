@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@ex/day1/*": ["./solutions/day1/*"],
+      "@ex/day2/*": ["./solutions/day2/*"],
+      "@ex/day3/*": ["./solutions/day3/*"],
+      "@ex/day4/*": ["./solutions/day4/*"],
+      "@ex/day5/*": ["./solutions/day5/*"],
+      "@ex/day6/*": ["./solutions/day6/*"],
+      "@ex/day7/*": ["./solutions/day7/*"],
+      "@app/*": ["./solutions/project/*"]
+    }
+  },
+  "include": ["solutions/**/*", "days/**/*.test.ts", "days/**/*.test.tsx", "project/test/**/*", "*.ts"]
+}
